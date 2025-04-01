@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:padding="16dp"
+     android:orientation="vertical">
+
+    <EditText
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:hint="Enter an integer"
+         android:inputType="number"
+         android:id="@+id/etNumber" />
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_marginTop="10dp"
+         android:id="@+id/btnSave"
+         android:text="Save Length" />
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_marginTop="20dp"
+         android:id="@+id/btnRequestPermissions"
+         android:text="Request Phone Permissions" />
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_marginTop="20dp"
+         android:id="@+id/btnSetCallScreener"
+         android:text="Set as Default Call Screener" />
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_marginTop="20dp"
+         android:id="@+id/btnSetDefaultDialer"
+         android:text="Set as Default Dialer" />
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_marginTop="20dp"
+         android:id="@+id/btnBlockNumber"
+         android:text="Block Number" />
+
+    
+</LinearLayout>
